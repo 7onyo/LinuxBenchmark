@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ "$EUID" -ne 0 ]; then
-  echo "Please run with sudo: sudo ./masterScript.sh"
+  echo "Please run with sudo: sudo ./script.sh"
   exit
 fi
 
@@ -24,7 +24,29 @@ echo "Created virtual keyboard at $VDEV."
 echo "You have 5 seconds to Alt+Tab into your game"
 sleep 5
 
+toggle_benchmark() {
+    evemu-event "$VDEV" --type EV_KEY --code KEY_LEFTSHIFT --value 1 --sync
+
+    sleep 0.05
+
+    evemu-event "$VDEV" --type EV_KEY --code KEY_F2 --value 1 --sync
+
+    sleep 0.1
+
+    evemu-event "$VDEV" --type EV_KEY --code KEY_F2 --value 0 --sync
+    sleep 0.05
+
+    evemu-event "$VDEV" --type EV_KEY --code KEY_LEFTSHIFT --value 0 --sync
+}
+
+echo "Starting FPS benchmark log (Injecting Shift+F2)"
+toggle_benchmark
+
 evemu-play "$VDEV" < "$FILE"
+
+echo "Stopping FPS benchmark log (Injecting Shift+F2)"
+toggle_benchmark
 
 kill $PID
 rm /tmp/vdev_node.txt
+echo "Macro complete. Check your Mangohud/Goverlay output folder for the CSV."
