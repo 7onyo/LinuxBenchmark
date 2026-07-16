@@ -1,0 +1,1004 @@
+# EVEMU 1.3
+# Kernel: 7.1.3-2-cachyos
+# DMI: dmi:bvnLENOVO:bvrLPCN65WW:bd03/25/2026:br1.65:efr1.61:svnLENOVO:pn82WM:pvrLegionPro516ARX8:rvnLENOVO:rnLNVNB161216:rvrNODPK:cvnLENOVO:ct10:cvrLegionPro516ARX8:skuLENOVO_MT_82WM_BU_idea_FM_LegionPro516ARX8:pfaLegionPro516ARX8:
+# Input device name: "ITE Tech. Inc. ITE Device(8910) Keyboard"
+# Input device ID: bus 0x03 vendor 0x48d product 0xc103 version 0x110
+# Supported events:
+#   Event type 0 (EV_SYN)
+#     Event code 0 (SYN_REPORT)
+#     Event code 1 (SYN_CONFIG)
+#     Event code 2 (SYN_MT_REPORT)
+#     Event code 3 (SYN_DROPPED)
+#     Event code 4 ((null))
+#     Event code 5 ((null))
+#     Event code 6 ((null))
+#     Event code 7 ((null))
+#     Event code 8 ((null))
+#     Event code 9 ((null))
+#     Event code 10 ((null))
+#     Event code 11 ((null))
+#     Event code 12 ((null))
+#     Event code 13 ((null))
+#     Event code 14 ((null))
+#     Event code 15 (SYN_MAX)
+#   Event type 1 (EV_KEY)
+#     Event code 1 (KEY_ESC)
+#     Event code 2 (KEY_1)
+#     Event code 3 (KEY_2)
+#     Event code 4 (KEY_3)
+#     Event code 5 (KEY_4)
+#     Event code 6 (KEY_5)
+#     Event code 7 (KEY_6)
+#     Event code 8 (KEY_7)
+#     Event code 9 (KEY_8)
+#     Event code 10 (KEY_9)
+#     Event code 11 (KEY_0)
+#     Event code 12 (KEY_MINUS)
+#     Event code 13 (KEY_EQUAL)
+#     Event code 14 (KEY_BACKSPACE)
+#     Event code 15 (KEY_TAB)
+#     Event code 16 (KEY_Q)
+#     Event code 17 (KEY_W)
+#     Event code 18 (KEY_E)
+#     Event code 19 (KEY_R)
+#     Event code 20 (KEY_T)
+#     Event code 21 (KEY_Y)
+#     Event code 22 (KEY_U)
+#     Event code 23 (KEY_I)
+#     Event code 24 (KEY_O)
+#     Event code 25 (KEY_P)
+#     Event code 26 (KEY_LEFTBRACE)
+#     Event code 27 (KEY_RIGHTBRACE)
+#     Event code 28 (KEY_ENTER)
+#     Event code 29 (KEY_LEFTCTRL)
+#     Event code 30 (KEY_A)
+#     Event code 31 (KEY_S)
+#     Event code 32 (KEY_D)
+#     Event code 33 (KEY_F)
+#     Event code 34 (KEY_G)
+#     Event code 35 (KEY_H)
+#     Event code 36 (KEY_J)
+#     Event code 37 (KEY_K)
+#     Event code 38 (KEY_L)
+#     Event code 39 (KEY_SEMICOLON)
+#     Event code 40 (KEY_APOSTROPHE)
+#     Event code 41 (KEY_GRAVE)
+#     Event code 42 (KEY_LEFTSHIFT)
+#     Event code 43 (KEY_BACKSLASH)
+#     Event code 44 (KEY_Z)
+#     Event code 45 (KEY_X)
+#     Event code 46 (KEY_C)
+#     Event code 47 (KEY_V)
+#     Event code 48 (KEY_B)
+#     Event code 49 (KEY_N)
+#     Event code 50 (KEY_M)
+#     Event code 51 (KEY_COMMA)
+#     Event code 52 (KEY_DOT)
+#     Event code 53 (KEY_SLASH)
+#     Event code 54 (KEY_RIGHTSHIFT)
+#     Event code 55 (KEY_KPASTERISK)
+#     Event code 56 (KEY_LEFTALT)
+#     Event code 57 (KEY_SPACE)
+#     Event code 58 (KEY_CAPSLOCK)
+#     Event code 59 (KEY_F1)
+#     Event code 60 (KEY_F2)
+#     Event code 61 (KEY_F3)
+#     Event code 62 (KEY_F4)
+#     Event code 63 (KEY_F5)
+#     Event code 64 (KEY_F6)
+#     Event code 65 (KEY_F7)
+#     Event code 66 (KEY_F8)
+#     Event code 67 (KEY_F9)
+#     Event code 68 (KEY_F10)
+#     Event code 69 (KEY_NUMLOCK)
+#     Event code 70 (KEY_SCROLLLOCK)
+#     Event code 71 (KEY_KP7)
+#     Event code 72 (KEY_KP8)
+#     Event code 73 (KEY_KP9)
+#     Event code 74 (KEY_KPMINUS)
+#     Event code 75 (KEY_KP4)
+#     Event code 76 (KEY_KP5)
+#     Event code 77 (KEY_KP6)
+#     Event code 78 (KEY_KPPLUS)
+#     Event code 79 (KEY_KP1)
+#     Event code 80 (KEY_KP2)
+#     Event code 81 (KEY_KP3)
+#     Event code 82 (KEY_KP0)
+#     Event code 83 (KEY_KPDOT)
+#     Event code 85 (KEY_ZENKAKUHANKAKU)
+#     Event code 86 (KEY_102ND)
+#     Event code 87 (KEY_F11)
+#     Event code 88 (KEY_F12)
+#     Event code 89 (KEY_RO)
+#     Event code 90 (KEY_KATAKANA)
+#     Event code 91 (KEY_HIRAGANA)
+#     Event code 92 (KEY_HENKAN)
+#     Event code 93 (KEY_KATAKANAHIRAGANA)
+#     Event code 94 (KEY_MUHENKAN)
+#     Event code 95 (KEY_KPJPCOMMA)
+#     Event code 96 (KEY_KPENTER)
+#     Event code 97 (KEY_RIGHTCTRL)
+#     Event code 98 (KEY_KPSLASH)
+#     Event code 99 (KEY_SYSRQ)
+#     Event code 100 (KEY_RIGHTALT)
+#     Event code 102 (KEY_HOME)
+#     Event code 103 (KEY_UP)
+#     Event code 104 (KEY_PAGEUP)
+#     Event code 105 (KEY_LEFT)
+#     Event code 106 (KEY_RIGHT)
+#     Event code 107 (KEY_END)
+#     Event code 108 (KEY_DOWN)
+#     Event code 109 (KEY_PAGEDOWN)
+#     Event code 110 (KEY_INSERT)
+#     Event code 111 (KEY_DELETE)
+#     Event code 113 (KEY_MUTE)
+#     Event code 114 (KEY_VOLUMEDOWN)
+#     Event code 115 (KEY_VOLUMEUP)
+#     Event code 116 (KEY_POWER)
+#     Event code 117 (KEY_KPEQUAL)
+#     Event code 119 (KEY_PAUSE)
+#     Event code 121 (KEY_KPCOMMA)
+#     Event code 122 (KEY_HANGEUL)
+#     Event code 123 (KEY_HANJA)
+#     Event code 124 (KEY_YEN)
+#     Event code 125 (KEY_LEFTMETA)
+#     Event code 126 (KEY_RIGHTMETA)
+#     Event code 127 (KEY_COMPOSE)
+#     Event code 128 (KEY_STOP)
+#     Event code 129 (KEY_AGAIN)
+#     Event code 130 (KEY_PROPS)
+#     Event code 131 (KEY_UNDO)
+#     Event code 132 (KEY_FRONT)
+#     Event code 133 (KEY_COPY)
+#     Event code 134 (KEY_OPEN)
+#     Event code 135 (KEY_PASTE)
+#     Event code 136 (KEY_FIND)
+#     Event code 137 (KEY_CUT)
+#     Event code 138 (KEY_HELP)
+#     Event code 139 (KEY_MENU)
+#     Event code 140 (KEY_CALC)
+#     Event code 142 (KEY_SLEEP)
+#     Event code 144 (KEY_FILE)
+#     Event code 150 (KEY_WWW)
+#     Event code 152 (KEY_COFFEE)
+#     Event code 155 (KEY_MAIL)
+#     Event code 156 (KEY_BOOKMARKS)
+#     Event code 158 (KEY_BACK)
+#     Event code 159 (KEY_FORWARD)
+#     Event code 161 (KEY_EJECTCD)
+#     Event code 163 (KEY_NEXTSONG)
+#     Event code 164 (KEY_PLAYPAUSE)
+#     Event code 165 (KEY_PREVIOUSSONG)
+#     Event code 166 (KEY_STOPCD)
+#     Event code 167 (KEY_RECORD)
+#     Event code 168 (KEY_REWIND)
+#     Event code 169 (KEY_PHONE)
+#     Event code 171 (KEY_CONFIG)
+#     Event code 172 (KEY_HOMEPAGE)
+#     Event code 173 (KEY_REFRESH)
+#     Event code 174 (KEY_EXIT)
+#     Event code 176 (KEY_EDIT)
+#     Event code 177 (KEY_SCROLLUP)
+#     Event code 178 (KEY_SCROLLDOWN)
+#     Event code 179 (KEY_KPLEFTPAREN)
+#     Event code 180 (KEY_KPRIGHTPAREN)
+#     Event code 181 (KEY_NEW)
+#     Event code 183 (KEY_F13)
+#     Event code 184 (KEY_F14)
+#     Event code 185 (KEY_F15)
+#     Event code 186 (KEY_F16)
+#     Event code 187 (KEY_F17)
+#     Event code 188 (KEY_F18)
+#     Event code 189 (KEY_F19)
+#     Event code 190 (KEY_F20)
+#     Event code 191 (KEY_F21)
+#     Event code 192 (KEY_F22)
+#     Event code 193 (KEY_F23)
+#     Event code 194 (KEY_F24)
+#     Event code 206 (KEY_CLOSE)
+#     Event code 207 (KEY_PLAY)
+#     Event code 208 (KEY_FASTFORWARD)
+#     Event code 209 (KEY_BASSBOOST)
+#     Event code 210 (KEY_PRINT)
+#     Event code 212 (KEY_CAMERA)
+#     Event code 216 (KEY_CHAT)
+#     Event code 217 (KEY_SEARCH)
+#     Event code 219 (KEY_FINANCE)
+#     Event code 224 (KEY_BRIGHTNESSDOWN)
+#     Event code 225 (KEY_BRIGHTNESSUP)
+#     Event code 228 (KEY_KBDILLUMTOGGLE)
+#     Event code 229 (KEY_KBDILLUMDOWN)
+#     Event code 230 (KEY_KBDILLUMUP)
+#     Event code 234 (KEY_SAVE)
+#     Event code 235 (KEY_DOCUMENTS)
+#     Event code 240 (KEY_UNKNOWN)
+#     Event code 241 (KEY_VIDEO_NEXT)
+#     Event code 244 (KEY_BRIGHTNESS_AUTO)
+#     Event code 256 (BTN_0)
+#     Event code 353 (KEY_SELECT)
+#     Event code 354 (KEY_GOTO)
+#     Event code 358 (KEY_INFO)
+#     Event code 362 (KEY_PROGRAM)
+#     Event code 366 (KEY_PVR)
+#     Event code 370 (KEY_SUBTITLE)
+#     Event code 372 (KEY_FULL_SCREEN)
+#     Event code 374 (KEY_KEYBOARD)
+#     Event code 375 (KEY_ASPECT_RATIO)
+#     Event code 376 (KEY_PC)
+#     Event code 377 (KEY_TV)
+#     Event code 378 (KEY_TV2)
+#     Event code 379 (KEY_VCR)
+#     Event code 380 (KEY_VCR2)
+#     Event code 381 (KEY_SAT)
+#     Event code 383 (KEY_CD)
+#     Event code 384 (KEY_TAPE)
+#     Event code 386 (KEY_TUNER)
+#     Event code 387 (KEY_PLAYER)
+#     Event code 389 (KEY_DVD)
+#     Event code 392 (KEY_AUDIO)
+#     Event code 393 (KEY_VIDEO)
+#     Event code 396 (KEY_MEMO)
+#     Event code 397 (KEY_CALENDAR)
+#     Event code 398 (KEY_RED)
+#     Event code 399 (KEY_GREEN)
+#     Event code 400 (KEY_YELLOW)
+#     Event code 401 (KEY_BLUE)
+#     Event code 402 (KEY_CHANNELUP)
+#     Event code 403 (KEY_CHANNELDOWN)
+#     Event code 405 (KEY_LAST)
+#     Event code 407 (KEY_NEXT)
+#     Event code 408 (KEY_RESTART)
+#     Event code 409 (KEY_SLOW)
+#     Event code 410 (KEY_SHUFFLE)
+#     Event code 412 (KEY_PREVIOUS)
+#     Event code 416 (KEY_VIDEOPHONE)
+#     Event code 417 (KEY_GAMES)
+#     Event code 418 (KEY_ZOOMIN)
+#     Event code 419 (KEY_ZOOMOUT)
+#     Event code 420 (KEY_ZOOMRESET)
+#     Event code 421 (KEY_WORDPROCESSOR)
+#     Event code 422 (KEY_EDITOR)
+#     Event code 423 (KEY_SPREADSHEET)
+#     Event code 424 (KEY_GRAPHICSEDITOR)
+#     Event code 425 (KEY_PRESENTATION)
+#     Event code 426 (KEY_DATABASE)
+#     Event code 427 (KEY_NEWS)
+#     Event code 428 (KEY_VOICEMAIL)
+#     Event code 429 (KEY_ADDRESSBOOK)
+#     Event code 430 (KEY_MESSENGER)
+#     Event code 431 (KEY_DISPLAYTOGGLE)
+#     Event code 432 (KEY_SPELLCHECK)
+#     Event code 433 (KEY_LOGOFF)
+#     Event code 439 (KEY_MEDIA_REPEAT)
+#     Event code 442 (KEY_IMAGES)
+#     Event code 576 (KEY_BUTTONCONFIG)
+#     Event code 577 (KEY_TASKMANAGER)
+#     Event code 578 (KEY_JOURNAL)
+#     Event code 579 (KEY_CONTROLPANEL)
+#     Event code 580 (KEY_APPSELECT)
+#     Event code 581 (KEY_SCREENSAVER)
+#     Event code 582 (KEY_VOICECOMMAND)
+#     Event code 583 (KEY_ASSISTANT)
+#     Event code 585 (KEY_EMOJI_PICKER)
+#     Event code 586 (KEY_DICTATE)
+#     Event code 587 (KEY_CAMERA_ACCESS_ENABLE)
+#     Event code 588 (KEY_CAMERA_ACCESS_DISABLE)
+#     Event code 589 (KEY_CAMERA_ACCESS_TOGGLE)
+#     Event code 592 (KEY_BRIGHTNESS_MIN)
+#     Event code 593 (KEY_BRIGHTNESS_MAX)
+#     Event code 596 ((null))
+#     Event code 597 ((null))
+#     Event code 598 ((null))
+#   Event type 2 (EV_REL)
+#     Event code 6 (REL_HWHEEL)
+#     Event code 12 (REL_HWHEEL_HI_RES)
+#   Event type 3 (EV_ABS)
+#     Event code 32 (ABS_VOLUME)
+#       Value        0
+#       Min          0
+#       Max        572
+#       Fuzz         0
+#       Flat         0
+#       Resolution   0
+#   Event type 4 (EV_MSC)
+#     Event code 4 (MSC_SCAN)
+#   Event type 17 (EV_LED)
+#     Event code 0 (LED_NUML)
+#        State 0
+#     Event code 1 (LED_CAPSL)
+#        State 0
+#     Event code 2 (LED_SCROLLL)
+#        State 0
+#     Event code 3 (LED_COMPOSE)
+#        State 0
+#     Event code 4 (LED_KANA)
+#        State 0
+#   Event type 20 (EV_REP)
+#     Event code 0 (REP_DELAY)
+#     Event code 1 (REP_PERIOD)
+# Properties:
+N: ITE Tech. Inc. ITE Device(8910) Keyboard
+I: 0003 048d c103 0110
+P: 00 00 00 00 00 00 00 00
+B: 00 0b 00 00 00 00 00 00 00
+B: 01 fe ff ff ff ff ff ff ff
+B: 01 ff ff ef ff df ff be fe
+B: 01 ff 5f 41 d9 fa 7b bf ff
+B: 01 07 c0 17 0b 73 0c 13 00
+B: 01 01 00 00 00 00 00 00 00
+B: 01 00 00 00 00 46 44 d4 bf
+B: 01 2d f3 af 17 ff ff 83 04
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 ff 3e 73 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 01 00 00 00 00 00 00 00 00
+B: 02 40 10 00 00 00 00 00 00
+B: 03 00 00 00 00 01 00 00 00
+B: 04 10 00 00 00 00 00 00 00
+B: 05 00 00 00 00 00 00 00 00
+B: 11 1f 00 00 00 00 00 00 00
+B: 12 00 00 00 00 00 00 00 00
+B: 14 03 00 00 00 00 00 00 00
+B: 15 00 00 00 00 00 00 00 00
+B: 15 00 00 00 00 00 00 00 00
+A: 20 0 572 0 0 0
+################################
+#      Waiting for events      #
+################################
+E: 0.000001 0004 0004 458778	# EV_MSC / MSC_SCAN             458778
+E: 0.000001 0001 0011 0001	# EV_KEY / KEY_W                1
+E: 0.000001 0000 0000 0000	# ------------ SYN_REPORT (0) ---------- +0ms
+E: 0.254825 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 0.254825 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +254ms
+E: 0.288827 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 0.288827 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 0.322828 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 0.322828 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 0.357826 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 0.357826 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +35ms
+E: 0.392824 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 0.392824 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +35ms
+E: 0.426826 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 0.426826 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 0.460824 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 0.460824 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 0.495826 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 0.495826 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +35ms
+E: 0.508005 0004 0004 458977	# EV_MSC / MSC_SCAN             458977
+E: 0.508005 0001 002a 0001	# EV_KEY / KEY_LEFTSHIFT        1
+E: 0.508005 0000 0000 0000	# ------------ SYN_REPORT (0) ---------- +13ms
+E: 0.758830 0001 002a 0002	# EV_KEY / KEY_LEFTSHIFT        2
+E: 0.758830 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +250ms
+E: 0.792830 0001 002a 0002	# EV_KEY / KEY_LEFTSHIFT        2
+E: 0.792830 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 0.826827 0001 002a 0002	# EV_KEY / KEY_LEFTSHIFT        2
+E: 0.826827 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 0.861825 0001 002a 0002	# EV_KEY / KEY_LEFTSHIFT        2
+E: 0.861825 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +35ms
+E: 0.895829 0001 002a 0002	# EV_KEY / KEY_LEFTSHIFT        2
+E: 0.895829 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 0.930828 0001 002a 0002	# EV_KEY / KEY_LEFTSHIFT        2
+E: 0.930828 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +35ms
+E: 0.964829 0001 002a 0002	# EV_KEY / KEY_LEFTSHIFT        2
+E: 0.964829 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 0.998828 0001 002a 0002	# EV_KEY / KEY_LEFTSHIFT        2
+E: 0.998828 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 1.032826 0001 002a 0002	# EV_KEY / KEY_LEFTSHIFT        2
+E: 1.032826 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 1.066824 0001 002a 0002	# EV_KEY / KEY_LEFTSHIFT        2
+E: 1.066824 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 1.100824 0001 002a 0002	# EV_KEY / KEY_LEFTSHIFT        2
+E: 1.100824 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 1.134831 0001 002a 0002	# EV_KEY / KEY_LEFTSHIFT        2
+E: 1.134831 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 1.168829 0001 002a 0002	# EV_KEY / KEY_LEFTSHIFT        2
+E: 1.168829 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 1.203829 0001 002a 0002	# EV_KEY / KEY_LEFTSHIFT        2
+E: 1.203829 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +35ms
+E: 1.237825 0001 002a 0002	# EV_KEY / KEY_LEFTSHIFT        2
+E: 1.237825 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 1.271826 0001 002a 0002	# EV_KEY / KEY_LEFTSHIFT        2
+E: 1.271826 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 1.305827 0001 002a 0002	# EV_KEY / KEY_LEFTSHIFT        2
+E: 1.305827 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 1.340827 0001 002a 0002	# EV_KEY / KEY_LEFTSHIFT        2
+E: 1.340827 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +35ms
+E: 1.374826 0001 002a 0002	# EV_KEY / KEY_LEFTSHIFT        2
+E: 1.374826 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 1.408830 0001 002a 0002	# EV_KEY / KEY_LEFTSHIFT        2
+E: 1.408830 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 1.443825 0001 002a 0002	# EV_KEY / KEY_LEFTSHIFT        2
+E: 1.443825 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +35ms
+E: 1.477825 0001 002a 0002	# EV_KEY / KEY_LEFTSHIFT        2
+E: 1.477825 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 1.511824 0001 002a 0002	# EV_KEY / KEY_LEFTSHIFT        2
+E: 1.511824 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 1.545825 0001 002a 0002	# EV_KEY / KEY_LEFTSHIFT        2
+E: 1.545825 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 1.580826 0001 002a 0002	# EV_KEY / KEY_LEFTSHIFT        2
+E: 1.580826 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +35ms
+E: 1.614832 0001 002a 0002	# EV_KEY / KEY_LEFTSHIFT        2
+E: 1.614832 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 1.648826 0001 002a 0002	# EV_KEY / KEY_LEFTSHIFT        2
+E: 1.648826 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 1.682823 0001 002a 0002	# EV_KEY / KEY_LEFTSHIFT        2
+E: 1.682823 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 1.717824 0001 002a 0002	# EV_KEY / KEY_LEFTSHIFT        2
+E: 1.717824 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +35ms
+E: 1.744028 0004 0004 458977	# EV_MSC / MSC_SCAN             458977
+E: 1.744028 0001 002a 0000	# EV_KEY / KEY_LEFTSHIFT        0
+E: 1.744028 0000 0000 0000	# ------------ SYN_REPORT (0) ---------- +27ms
+E: 1.836024 0004 0004 458778	# EV_MSC / MSC_SCAN             458778
+E: 1.836024 0001 0011 0000	# EV_KEY / KEY_W                0
+E: 1.836024 0000 0000 0000	# ------------ SYN_REPORT (0) ---------- +92ms
+E: 2.024024 0004 0004 458778	# EV_MSC / MSC_SCAN             458778
+E: 2.024024 0001 0011 0001	# EV_KEY / KEY_W                1
+E: 2.024024 0000 0000 0000	# ------------ SYN_REPORT (0) ---------- +188ms
+E: 2.278827 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 2.278827 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +254ms
+E: 2.313827 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 2.313827 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +35ms
+E: 2.347830 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 2.347830 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 2.381836 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 2.381836 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 2.416825 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 2.416825 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +35ms
+E: 2.451825 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 2.451825 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +35ms
+E: 2.485824 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 2.485824 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 2.520823 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 2.520823 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +35ms
+E: 2.554829 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 2.554829 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 2.589828 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 2.589828 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +35ms
+E: 2.623826 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 2.623826 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 2.657830 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 2.657830 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 2.691824 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 2.691824 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 2.726827 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 2.726827 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +35ms
+E: 2.761824 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 2.761824 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +35ms
+E: 2.796824 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 2.796824 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +35ms
+E: 2.830825 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 2.830825 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 2.864826 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 2.864826 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 2.899827 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 2.899827 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +35ms
+E: 2.908044 0004 0004 458778	# EV_MSC / MSC_SCAN             458778
+E: 2.908044 0001 0011 0000	# EV_KEY / KEY_W                0
+E: 2.908044 0000 0000 0000	# ------------ SYN_REPORT (0) ---------- +9ms
+E: 3.052036 0004 0004 458831	# EV_MSC / MSC_SCAN             458831
+E: 3.052036 0001 006a 0001	# EV_KEY / KEY_RIGHT            1
+E: 3.052036 0000 0000 0000	# ------------ SYN_REPORT (0) ---------- +144ms
+E: 3.302825 0001 006a 0002	# EV_KEY / KEY_RIGHT            2
+E: 3.302825 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +250ms
+E: 3.336823 0001 006a 0002	# EV_KEY / KEY_RIGHT            2
+E: 3.336823 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 3.370824 0001 006a 0002	# EV_KEY / KEY_RIGHT            2
+E: 3.370824 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 3.404825 0001 006a 0002	# EV_KEY / KEY_RIGHT            2
+E: 3.404825 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 3.438825 0001 006a 0002	# EV_KEY / KEY_RIGHT            2
+E: 3.438825 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 3.472826 0001 006a 0002	# EV_KEY / KEY_RIGHT            2
+E: 3.472826 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 3.506827 0001 006a 0002	# EV_KEY / KEY_RIGHT            2
+E: 3.506827 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 3.540826 0001 006a 0002	# EV_KEY / KEY_RIGHT            2
+E: 3.540826 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 3.574827 0001 006a 0002	# EV_KEY / KEY_RIGHT            2
+E: 3.574827 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 3.609825 0001 006a 0002	# EV_KEY / KEY_RIGHT            2
+E: 3.609825 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +35ms
+E: 3.643827 0001 006a 0002	# EV_KEY / KEY_RIGHT            2
+E: 3.643827 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 3.677826 0001 006a 0002	# EV_KEY / KEY_RIGHT            2
+E: 3.677826 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 3.711830 0001 006a 0002	# EV_KEY / KEY_RIGHT            2
+E: 3.711830 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 3.745826 0001 006a 0002	# EV_KEY / KEY_RIGHT            2
+E: 3.745826 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 3.779826 0001 006a 0002	# EV_KEY / KEY_RIGHT            2
+E: 3.779826 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 3.813825 0001 006a 0002	# EV_KEY / KEY_RIGHT            2
+E: 3.813825 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 3.847826 0001 006a 0002	# EV_KEY / KEY_RIGHT            2
+E: 3.847826 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 3.882827 0001 006a 0002	# EV_KEY / KEY_RIGHT            2
+E: 3.882827 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +35ms
+E: 3.917830 0001 006a 0002	# EV_KEY / KEY_RIGHT            2
+E: 3.917830 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +35ms
+E: 3.952825 0001 006a 0002	# EV_KEY / KEY_RIGHT            2
+E: 3.952825 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +35ms
+E: 3.986829 0001 006a 0002	# EV_KEY / KEY_RIGHT            2
+E: 3.986829 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 4.020829 0001 006a 0002	# EV_KEY / KEY_RIGHT            2
+E: 4.020829 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 4.054824 0001 006a 0002	# EV_KEY / KEY_RIGHT            2
+E: 4.054824 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 4.088827 0001 006a 0002	# EV_KEY / KEY_RIGHT            2
+E: 4.088827 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 4.116050 0004 0004 458831	# EV_MSC / MSC_SCAN             458831
+E: 4.116050 0001 006a 0000	# EV_KEY / KEY_RIGHT            0
+E: 4.116050 0000 0000 0000	# ------------ SYN_REPORT (0) ---------- +28ms
+E: 4.400052 0004 0004 458832	# EV_MSC / MSC_SCAN             458832
+E: 4.400052 0001 0069 0001	# EV_KEY / KEY_LEFT             1
+E: 4.400052 0000 0000 0000	# ------------ SYN_REPORT (0) ---------- +284ms
+E: 4.504056 0004 0004 458832	# EV_MSC / MSC_SCAN             458832
+E: 4.504056 0001 0069 0000	# EV_KEY / KEY_LEFT             0
+E: 4.504056 0000 0000 0000	# ------------ SYN_REPORT (0) ---------- +104ms
+E: 5.036055 0004 0004 458778	# EV_MSC / MSC_SCAN             458778
+E: 5.036055 0001 0011 0001	# EV_KEY / KEY_W                1
+E: 5.036055 0000 0000 0000	# ------------ SYN_REPORT (0) ---------- +532ms
+E: 5.268068 0004 0004 458761	# EV_MSC / MSC_SCAN             458761
+E: 5.268068 0001 0021 0001	# EV_KEY / KEY_F                1
+E: 5.268068 0000 0000 0000	# ------------ SYN_REPORT (0) ---------- +232ms
+E: 5.404066 0004 0004 458761	# EV_MSC / MSC_SCAN             458761
+E: 5.404066 0001 0021 0000	# EV_KEY / KEY_F                0
+E: 5.404066 0000 0000 0000	# ------------ SYN_REPORT (0) ---------- +136ms
+E: 6.216079 0004 0004 458761	# EV_MSC / MSC_SCAN             458761
+E: 6.216079 0001 0021 0001	# EV_KEY / KEY_F                1
+E: 6.216079 0000 0000 0000	# ------------ SYN_REPORT (0) ---------- +812ms
+E: 6.360074 0004 0004 458761	# EV_MSC / MSC_SCAN             458761
+E: 6.360074 0001 0021 0000	# EV_KEY / KEY_F                0
+E: 6.360074 0000 0000 0000	# ------------ SYN_REPORT (0) ---------- +144ms
+E: 6.700080 0004 0004 458778	# EV_MSC / MSC_SCAN             458778
+E: 6.700080 0001 0011 0000	# EV_KEY / KEY_W                0
+E: 6.700080 0000 0000 0000	# ------------ SYN_REPORT (0) ---------- +340ms
+E: 7.152085 0004 0004 458767	# EV_MSC / MSC_SCAN             458767
+E: 7.152085 0001 0026 0001	# EV_KEY / KEY_L                1
+E: 7.152085 0000 0000 0000	# ------------ SYN_REPORT (0) ---------- +452ms
+E: 7.280081 0004 0004 458767	# EV_MSC / MSC_SCAN             458767
+E: 7.280081 0001 0026 0000	# EV_KEY / KEY_L                0
+E: 7.280081 0000 0000 0000	# ------------ SYN_REPORT (0) ---------- +128ms
+E: 8.872113 0004 0004 458767	# EV_MSC / MSC_SCAN             458767
+E: 8.872113 0001 0026 0001	# EV_KEY / KEY_L                1
+E: 8.872113 0000 0000 0000	# ------------ SYN_REPORT (0) ---------- +1592ms
+E: 8.992097 0004 0004 458767	# EV_MSC / MSC_SCAN             458767
+E: 8.992097 0001 0026 0000	# EV_KEY / KEY_L                0
+E: 8.992097 0000 0000 0000	# ------------ SYN_REPORT (0) ---------- +120ms
+E: 10.048115 0004 0004 458767	# EV_MSC / MSC_SCAN             458767
+E: 10.048115 0001 0026 0001	# EV_KEY / KEY_L                1
+E: 10.048115 0000 0000 0000	# ------------ SYN_REPORT (0) ---------- +1056ms
+E: 10.132112 0004 0004 458767	# EV_MSC / MSC_SCAN             458767
+E: 10.132112 0001 0026 0000	# EV_KEY / KEY_L                0
+E: 10.132112 0000 0000 0000	# ------------ SYN_REPORT (0) ---------- +84ms
+E: 10.404117 0004 0004 458832	# EV_MSC / MSC_SCAN             458832
+E: 10.404117 0001 0069 0001	# EV_KEY / KEY_LEFT             1
+E: 10.404117 0000 0000 0000	# ------------ SYN_REPORT (0) ---------- +272ms
+E: 10.654828 0001 0069 0002	# EV_KEY / KEY_LEFT             2
+E: 10.654828 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +250ms
+E: 10.688824 0001 0069 0002	# EV_KEY / KEY_LEFT             2
+E: 10.688824 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 10.723828 0001 0069 0002	# EV_KEY / KEY_LEFT             2
+E: 10.723828 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +35ms
+E: 10.758827 0001 0069 0002	# EV_KEY / KEY_LEFT             2
+E: 10.758827 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +35ms
+E: 10.792827 0001 0069 0002	# EV_KEY / KEY_LEFT             2
+E: 10.792827 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 10.826827 0001 0069 0002	# EV_KEY / KEY_LEFT             2
+E: 10.826827 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 10.860823 0001 0069 0002	# EV_KEY / KEY_LEFT             2
+E: 10.860823 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 10.895824 0001 0069 0002	# EV_KEY / KEY_LEFT             2
+E: 10.895824 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +35ms
+E: 10.929832 0001 0069 0002	# EV_KEY / KEY_LEFT             2
+E: 10.929832 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 10.963826 0001 0069 0002	# EV_KEY / KEY_LEFT             2
+E: 10.963826 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 10.997827 0001 0069 0002	# EV_KEY / KEY_LEFT             2
+E: 10.997827 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 11.031826 0001 0069 0002	# EV_KEY / KEY_LEFT             2
+E: 11.031826 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 11.065826 0001 0069 0002	# EV_KEY / KEY_LEFT             2
+E: 11.065826 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 11.099824 0001 0069 0002	# EV_KEY / KEY_LEFT             2
+E: 11.099824 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 11.134825 0001 0069 0002	# EV_KEY / KEY_LEFT             2
+E: 11.134825 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +35ms
+E: 11.169824 0001 0069 0002	# EV_KEY / KEY_LEFT             2
+E: 11.169824 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +35ms
+E: 11.203826 0001 0069 0002	# EV_KEY / KEY_LEFT             2
+E: 11.203826 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 11.237828 0001 0069 0002	# EV_KEY / KEY_LEFT             2
+E: 11.237828 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 11.271826 0001 0069 0002	# EV_KEY / KEY_LEFT             2
+E: 11.271826 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 11.306830 0001 0069 0002	# EV_KEY / KEY_LEFT             2
+E: 11.306830 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +35ms
+E: 11.341826 0001 0069 0002	# EV_KEY / KEY_LEFT             2
+E: 11.341826 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +35ms
+E: 11.375830 0001 0069 0002	# EV_KEY / KEY_LEFT             2
+E: 11.375830 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 11.410828 0001 0069 0002	# EV_KEY / KEY_LEFT             2
+E: 11.410828 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +35ms
+E: 11.444827 0001 0069 0002	# EV_KEY / KEY_LEFT             2
+E: 11.444827 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 11.478826 0001 0069 0002	# EV_KEY / KEY_LEFT             2
+E: 11.478826 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 11.484130 0004 0004 458832	# EV_MSC / MSC_SCAN             458832
+E: 11.484130 0001 0069 0000	# EV_KEY / KEY_LEFT             0
+E: 11.484130 0000 0000 0000	# ------------ SYN_REPORT (0) ---------- +6ms
+E: 11.856128 0004 0004 458796	# EV_MSC / MSC_SCAN             458796
+E: 11.856128 0001 0039 0001	# EV_KEY / KEY_SPACE            1
+E: 11.856128 0000 0000 0000	# ------------ SYN_REPORT (0) ---------- +372ms
+E: 12.111829 0001 0039 0002	# EV_KEY / KEY_SPACE            2
+E: 12.111829 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +255ms
+E: 12.145827 0001 0039 0002	# EV_KEY / KEY_SPACE            2
+E: 12.145827 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 12.172128 0004 0004 458796	# EV_MSC / MSC_SCAN             458796
+E: 12.172128 0001 0039 0000	# EV_KEY / KEY_SPACE            0
+E: 12.172128 0000 0000 0000	# ------------ SYN_REPORT (0) ---------- +27ms
+E: 12.316136 0004 0004 458831	# EV_MSC / MSC_SCAN             458831
+E: 12.316136 0001 006a 0001	# EV_KEY / KEY_RIGHT            1
+E: 12.316136 0000 0000 0000	# ------------ SYN_REPORT (0) ---------- +144ms
+E: 12.408132 0004 0004 458831	# EV_MSC / MSC_SCAN             458831
+E: 12.408132 0001 006a 0000	# EV_KEY / KEY_RIGHT            0
+E: 12.408132 0000 0000 0000	# ------------ SYN_REPORT (0) ---------- +92ms
+E: 12.740135 0004 0004 458778	# EV_MSC / MSC_SCAN             458778
+E: 12.740135 0001 0011 0001	# EV_KEY / KEY_W                1
+E: 12.740135 0000 0000 0000	# ------------ SYN_REPORT (0) ---------- +332ms
+E: 12.990828 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 12.990828 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +250ms
+E: 13.024827 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 13.024827 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 13.059826 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 13.059826 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +35ms
+E: 13.094827 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 13.094827 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +35ms
+E: 13.128827 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 13.128827 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 13.162829 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 13.162829 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 13.196826 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 13.196826 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 13.231824 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 13.231824 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +35ms
+E: 13.265824 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 13.265824 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 13.299831 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 13.299831 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 13.333828 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 13.333828 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 13.367827 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 13.367827 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 13.401826 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 13.401826 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 13.435830 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 13.435830 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 13.469837 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 13.469837 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 13.503824 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 13.503824 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 13.537828 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 13.537828 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 13.571826 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 13.571826 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 13.605826 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 13.605826 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 13.640827 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 13.640827 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +35ms
+E: 13.674828 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 13.674828 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 13.708829 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 13.708829 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 13.742833 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 13.742833 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 13.776830 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 13.776830 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 13.810826 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 13.810826 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 13.844831 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 13.844831 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 13.878830 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 13.878830 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 13.912830 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 13.912830 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 13.946824 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 13.946824 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 13.968145 0004 0004 458832	# EV_MSC / MSC_SCAN             458832
+E: 13.968145 0001 0069 0001	# EV_KEY / KEY_LEFT             1
+E: 13.968145 0000 0000 0000	# ------------ SYN_REPORT (0) ---------- +22ms
+E: 14.032154 0004 0004 458832	# EV_MSC / MSC_SCAN             458832
+E: 14.032154 0001 0069 0000	# EV_KEY / KEY_LEFT             0
+E: 14.032154 0000 0000 0000	# ------------ SYN_REPORT (0) ---------- +64ms
+E: 14.812155 0004 0004 458831	# EV_MSC / MSC_SCAN             458831
+E: 14.812155 0001 006a 0001	# EV_KEY / KEY_RIGHT            1
+E: 14.812155 0000 0000 0000	# ------------ SYN_REPORT (0) ---------- +780ms
+E: 14.920166 0004 0004 458778	# EV_MSC / MSC_SCAN             458778
+E: 14.920166 0001 0011 0000	# EV_KEY / KEY_W                0
+E: 14.920166 0000 0000 0000	# ------------ SYN_REPORT (0) ---------- +108ms
+E: 15.276161 0004 0004 458831	# EV_MSC / MSC_SCAN             458831
+E: 15.276161 0001 006a 0000	# EV_KEY / KEY_RIGHT            0
+E: 15.276161 0000 0000 0000	# ------------ SYN_REPORT (0) ---------- +356ms
+E: 15.440166 0004 0004 458778	# EV_MSC / MSC_SCAN             458778
+E: 15.440166 0001 0011 0001	# EV_KEY / KEY_W                1
+E: 15.440166 0000 0000 0000	# ------------ SYN_REPORT (0) ---------- +164ms
+E: 15.695825 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 15.695825 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +255ms
+E: 15.729828 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 15.729828 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 15.763826 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 15.763826 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 15.797827 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 15.797827 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 15.831829 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 15.831829 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 15.865827 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 15.865827 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 15.899830 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 15.899830 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 15.934827 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 15.934827 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +35ms
+E: 15.968825 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 15.968825 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 16.002827 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 16.002827 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 16.036827 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 16.036827 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 16.071823 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 16.071823 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +35ms
+E: 16.105825 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 16.105825 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 16.139825 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 16.139825 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 16.174826 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 16.174826 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +35ms
+E: 16.209826 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 16.209826 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +35ms
+E: 16.243827 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 16.243827 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 16.277830 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 16.277830 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 16.311827 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 16.311827 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 16.345827 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 16.345827 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 16.379828 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 16.379828 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 16.414847 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 16.414847 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +35ms
+E: 16.448828 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 16.448828 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 16.482828 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 16.482828 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 16.516826 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 16.516826 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 16.550827 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 16.550827 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 16.584827 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 16.584827 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 16.618829 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 16.618829 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 16.652828 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 16.652828 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 16.686826 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 16.686826 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 16.720827 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 16.720827 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 16.755825 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 16.755825 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +35ms
+E: 16.789827 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 16.789827 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 16.824831 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 16.824831 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +35ms
+E: 16.858828 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 16.858828 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 16.893827 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 16.893827 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +35ms
+E: 16.927826 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 16.927826 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 16.961825 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 16.961825 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 16.964180 0004 0004 458778	# EV_MSC / MSC_SCAN             458778
+E: 16.964180 0001 0011 0000	# EV_KEY / KEY_W                0
+E: 16.964180 0000 0000 0000	# ------------ SYN_REPORT (0) ---------- +3ms
+E: 17.148181 0004 0004 458832	# EV_MSC / MSC_SCAN             458832
+E: 17.148181 0001 0069 0001	# EV_KEY / KEY_LEFT             1
+E: 17.148181 0000 0000 0000	# ------------ SYN_REPORT (0) ---------- +184ms
+E: 17.399826 0001 0069 0002	# EV_KEY / KEY_LEFT             2
+E: 17.399826 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +251ms
+E: 17.433824 0001 0069 0002	# EV_KEY / KEY_LEFT             2
+E: 17.433824 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 17.468824 0001 0069 0002	# EV_KEY / KEY_LEFT             2
+E: 17.468824 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +35ms
+E: 17.503825 0001 0069 0002	# EV_KEY / KEY_LEFT             2
+E: 17.503825 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +35ms
+E: 17.537826 0001 0069 0002	# EV_KEY / KEY_LEFT             2
+E: 17.537826 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 17.572825 0001 0069 0002	# EV_KEY / KEY_LEFT             2
+E: 17.572825 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +35ms
+E: 17.606825 0001 0069 0002	# EV_KEY / KEY_LEFT             2
+E: 17.606825 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 17.640826 0001 0069 0002	# EV_KEY / KEY_LEFT             2
+E: 17.640826 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 17.674829 0001 0069 0002	# EV_KEY / KEY_LEFT             2
+E: 17.674829 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 17.708830 0001 0069 0002	# EV_KEY / KEY_LEFT             2
+E: 17.708830 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 17.742826 0001 0069 0002	# EV_KEY / KEY_LEFT             2
+E: 17.742826 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 17.776823 0001 0069 0002	# EV_KEY / KEY_LEFT             2
+E: 17.776823 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 17.811824 0001 0069 0002	# EV_KEY / KEY_LEFT             2
+E: 17.811824 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +35ms
+E: 17.846826 0001 0069 0002	# EV_KEY / KEY_LEFT             2
+E: 17.846826 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +35ms
+E: 17.880827 0001 0069 0002	# EV_KEY / KEY_LEFT             2
+E: 17.880827 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 17.915826 0001 0069 0002	# EV_KEY / KEY_LEFT             2
+E: 17.915826 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +35ms
+E: 17.949826 0001 0069 0002	# EV_KEY / KEY_LEFT             2
+E: 17.949826 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 17.983824 0001 0069 0002	# EV_KEY / KEY_LEFT             2
+E: 17.983824 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 18.017827 0001 0069 0002	# EV_KEY / KEY_LEFT             2
+E: 18.017827 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 18.051823 0001 0069 0002	# EV_KEY / KEY_LEFT             2
+E: 18.051823 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 18.085826 0001 0069 0002	# EV_KEY / KEY_LEFT             2
+E: 18.085826 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 18.119824 0001 0069 0002	# EV_KEY / KEY_LEFT             2
+E: 18.119824 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 18.153827 0001 0069 0002	# EV_KEY / KEY_LEFT             2
+E: 18.153827 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 18.187830 0001 0069 0002	# EV_KEY / KEY_LEFT             2
+E: 18.187830 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 18.192185 0004 0004 458832	# EV_MSC / MSC_SCAN             458832
+E: 18.192185 0001 0069 0000	# EV_KEY / KEY_LEFT             0
+E: 18.192185 0000 0000 0000	# ------------ SYN_REPORT (0) ---------- +5ms
+E: 18.404189 0004 0004 458778	# EV_MSC / MSC_SCAN             458778
+E: 18.404189 0001 0011 0001	# EV_KEY / KEY_W                1
+E: 18.404189 0000 0000 0000	# ------------ SYN_REPORT (0) ---------- +212ms
+E: 18.655826 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 18.655826 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +251ms
+E: 18.689824 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 18.689824 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 18.723828 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 18.723828 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 18.757824 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 18.757824 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 18.791829 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 18.791829 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 18.825825 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 18.825825 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 18.859826 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 18.859826 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 18.894823 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 18.894823 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +35ms
+E: 18.928828 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 18.928828 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 18.963829 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 18.963829 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +35ms
+E: 18.997824 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 18.997824 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 19.031827 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 19.031827 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 19.066826 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 19.066826 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +35ms
+E: 19.100828 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 19.100828 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 19.134830 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 19.134830 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 19.168827 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 19.168827 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 19.202830 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 19.202830 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 19.236824 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 19.236824 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 19.270826 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 19.270826 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 19.304826 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 19.304826 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 19.338824 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 19.338824 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 19.372826 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 19.372826 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 19.406828 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 19.406828 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 19.440824 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 19.440824 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 19.474828 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 19.474828 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 19.508830 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 19.508830 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 19.542828 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 19.542828 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 19.576828 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 19.576828 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 19.611827 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 19.611827 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +35ms
+E: 19.646827 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 19.646827 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +35ms
+E: 19.680825 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 19.680825 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 19.715826 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 19.715826 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +35ms
+E: 19.724205 0004 0004 458832	# EV_MSC / MSC_SCAN             458832
+E: 19.724205 0001 0069 0001	# EV_KEY / KEY_LEFT             1
+E: 19.724205 0000 0000 0000	# ------------ SYN_REPORT (0) ---------- +9ms
+E: 19.728205 0004 0004 458778	# EV_MSC / MSC_SCAN             458778
+E: 19.728205 0001 0011 0000	# EV_KEY / KEY_W                0
+E: 19.728205 0000 0000 0000	# ------------ SYN_REPORT (0) ---------- +4ms
+E: 20.160209 0004 0004 458832	# EV_MSC / MSC_SCAN             458832
+E: 20.160209 0001 0069 0000	# EV_KEY / KEY_LEFT             0
+E: 20.160209 0000 0000 0000	# ------------ SYN_REPORT (0) ---------- +432ms
+E: 20.328217 0004 0004 458778	# EV_MSC / MSC_SCAN             458778
+E: 20.328217 0001 0011 0001	# EV_KEY / KEY_W                1
+E: 20.328217 0000 0000 0000	# ------------ SYN_REPORT (0) ---------- +168ms
+E: 20.582827 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 20.582827 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +254ms
+E: 20.616824 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 20.616824 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 20.650823 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 20.650823 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 20.684829 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 20.684829 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 20.719830 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 20.719830 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +35ms
+E: 20.753826 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 20.753826 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 20.787826 0001 0011 0002	# EV_KEY / KEY_W                2
+E: 20.787826 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 20.792209 0004 0004 458831	# EV_MSC / MSC_SCAN             458831
+E: 20.792209 0001 006a 0001	# EV_KEY / KEY_RIGHT            1
+E: 20.792209 0000 0000 0000	# ------------ SYN_REPORT (0) ---------- +5ms
+E: 20.848217 0004 0004 458831	# EV_MSC / MSC_SCAN             458831
+E: 20.848217 0001 006a 0000	# EV_KEY / KEY_RIGHT            0
+E: 20.848217 0000 0000 0000	# ------------ SYN_REPORT (0) ---------- +56ms
+E: 21.360222 0004 0004 458977	# EV_MSC / MSC_SCAN             458977
+E: 21.360222 0001 002a 0001	# EV_KEY / KEY_LEFTSHIFT        1
+E: 21.360222 0000 0000 0000	# ------------ SYN_REPORT (0) ---------- +512ms
+E: 21.615824 0001 002a 0002	# EV_KEY / KEY_LEFTSHIFT        2
+E: 21.615824 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +255ms
+E: 21.650827 0001 002a 0002	# EV_KEY / KEY_LEFTSHIFT        2
+E: 21.650827 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +35ms
+E: 21.684825 0001 002a 0002	# EV_KEY / KEY_LEFTSHIFT        2
+E: 21.684825 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 21.718832 0001 002a 0002	# EV_KEY / KEY_LEFTSHIFT        2
+E: 21.718832 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 21.752827 0001 002a 0002	# EV_KEY / KEY_LEFTSHIFT        2
+E: 21.752827 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 21.786826 0001 002a 0002	# EV_KEY / KEY_LEFTSHIFT        2
+E: 21.786826 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 21.821824 0001 002a 0002	# EV_KEY / KEY_LEFTSHIFT        2
+E: 21.821824 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +35ms
+E: 21.855825 0001 002a 0002	# EV_KEY / KEY_LEFTSHIFT        2
+E: 21.855825 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 21.889824 0001 002a 0002	# EV_KEY / KEY_LEFTSHIFT        2
+E: 21.889824 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 21.924825 0001 002a 0002	# EV_KEY / KEY_LEFTSHIFT        2
+E: 21.924825 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +35ms
+E: 21.958827 0001 002a 0002	# EV_KEY / KEY_LEFTSHIFT        2
+E: 21.958827 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 21.992829 0001 002a 0002	# EV_KEY / KEY_LEFTSHIFT        2
+E: 21.992829 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 22.027824 0001 002a 0002	# EV_KEY / KEY_LEFTSHIFT        2
+E: 22.027824 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +35ms
+E: 22.061825 0001 002a 0002	# EV_KEY / KEY_LEFTSHIFT        2
+E: 22.061825 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 22.095827 0001 002a 0002	# EV_KEY / KEY_LEFTSHIFT        2
+E: 22.095827 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 22.130826 0001 002a 0002	# EV_KEY / KEY_LEFTSHIFT        2
+E: 22.130826 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +35ms
+E: 22.165824 0001 002a 0002	# EV_KEY / KEY_LEFTSHIFT        2
+E: 22.165824 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +35ms
+E: 22.199826 0001 002a 0002	# EV_KEY / KEY_LEFTSHIFT        2
+E: 22.199826 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 22.233825 0001 002a 0002	# EV_KEY / KEY_LEFTSHIFT        2
+E: 22.233825 0000 0000 0001	# ------------ SYN_REPORT (1) ---------- +34ms
+E: 22.256230 0004 0004 458977	# EV_MSC / MSC_SCAN             458977
+E: 22.256230 0001 002a 0000	# EV_KEY / KEY_LEFTSHIFT        0
+E: 22.256230 0000 0000 0000	# ------------ SYN_REPORT (0) ---------- +23ms
+E: 22.276233 0004 0004 458778	# EV_MSC / MSC_SCAN             458778
+E: 22.276233 0001 0011 0000	# EV_KEY / KEY_W                0
+E: 22.276233 0000 0000 0000	# ------------ SYN_REPORT (0) ---------- +20ms
