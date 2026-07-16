@@ -15,6 +15,8 @@ Built for fun and experimentation - the goal is to get consistent, repeatable be
 ### Play Metro Exodus Demo
 <video src="https://github.com/user-attachments/assets/c5bead01-675b-43f3-9372-1106019519b8" controls="controls" width="100%"></video>
 
+*Note: Play demos for Batman Arkham Knight and Wolfenstein The New Order are also available in the `media/` directory.*
+
 ## How It Works
 
 1. **Record** - Capture keyboard inputs while playing through a repeatable game segment (e.g., a saved checkpoint or level start).
@@ -45,6 +47,8 @@ This approach is **not practical for general-purpose benchmarking** because:
 │   └── play.sh         # Replay inputs on a virtual keyboard + MangoHud logging
 ├── macros/             # Stored .evemu macro files (recorded input sequences)
 ├── data/               # MangoHud FPS log CSVs and benchmark results
+├── media/              # Demo videos
+├── LICENSE             # Project license
 └── README.md
 ```
 
