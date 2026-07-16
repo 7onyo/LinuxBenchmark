@@ -1,11 +1,14 @@
 #!/bin/bash
 
 if [ "$EUID" -ne 0 ]; then
-  echo "Please run with sudo: sudo ./script.sh"
+  echo "Please run with sudo: sudo ./play.sh"
   exit
 fi
 
-FILE="game_path.evemu"
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+source "$SCRIPT_DIR/.env"
+
+FILE="$RECORDING_FILE"
 
 evemu-device "$FILE" > /tmp/vdev_node.txt &
 PID=$!
@@ -21,8 +24,8 @@ if [ -z "$VDEV" ]; then
 fi
 
 echo "Created virtual keyboard at $VDEV."
-echo "You have 5 seconds to Alt+Tab into your game"
-sleep 5
+echo "You have 10 seconds to Alt+Tab into your game"
+sleep 10
 
 toggle_benchmark() {
     evemu-event "$VDEV" --type EV_KEY --code KEY_LEFTSHIFT --value 1 --sync

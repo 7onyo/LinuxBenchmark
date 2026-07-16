@@ -1,12 +1,15 @@
 #!/bin/bash
 
 if [ "$EUID" -ne 0 ]; then
-  echo "Please run with sudo: sudo ./record_macro.sh"
+  echo "Please run with sudo: sudo ./record.sh"
   exit 1
 fi
 
-TARGET_KBD="ITE Tech. Inc. ITE Device(8910) Keyboard"
-OUTPUT_FILE="game_path.evemu"
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+source "$SCRIPT_DIR/.env"
+
+TARGET_KBD="$KEYBOARD_NAME"
+OUTPUT_FILE="$RECORDING_FILE"
 
 EVENT_NODE=$(grep -A 4 "Name=\"$TARGET_KBD\"" /proc/bus/input/devices | grep -oE 'event[0-9]+' | head -n 1)
 
