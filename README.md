@@ -10,10 +10,21 @@ Built for fun and experimentation - the goal is to get consistent, repeatable be
 ## Demos
 
 ### Record Metro Exodus Demo
-<video src="https://github.com/user-attachments/assets/3c7a5fab-91ab-4dcd-a343-414091f1dc32" controls="controls" width="100%"></video>
+<!-- <video src="https://github.com/user-attachments/assets/3c7a5fab-91ab-4dcd-a343-414091f1dc32" controls="controls" width="100%"></video> -->
+<div align="center">
+  <a href="https://www.youtube.com/embed/8VnS-iVjp0w">
+    <img src="https://img.youtube.com/vi/8VnS-iVjp0w/maxresdefault.jpg" width="80%" alt="Record" />
+  </a>
+</div>
 
 ### Play Metro Exodus Demo
-<video src="https://github.com/user-attachments/assets/c5bead01-675b-43f3-9372-1106019519b8" controls="controls" width="100%"></video>
+<!-- <video src="https://github.com/user-attachments/assets/c5bead01-675b-43f3-9372-1106019519b8" controls="controls" width="100%"></video> -->
+<div align="center">
+  <a href="https://www.youtube.com/embed/L1maKiUHBag">
+    <img src="https://img.youtube.com/vi/L1maKiUHBag/maxresdefault.jpg" width="80%" alt="Play" />
+  </a>
+</div>
+
 
 *Note: Play demos for Batman Arkham Knight and Wolfenstein The New Order are also available in the `media/` directory.*
 
